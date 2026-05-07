@@ -1,0 +1,24 @@
+{
+  "name": "vision-telemetry-fusion",
+  "private": false,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Synthetic dashboard that fuses camera, network, and app telemetry with lightweight anomaly scoring.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "vite": "^7.2.7",
+    "typescript": "^5.9.3",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3"
+  }
+}
