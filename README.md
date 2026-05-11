@@ -1,72 +1,21 @@
-# Vision Telemetry Fusion
+# Fusao De Telemetria De Visao E Rede
 
-Synthetic dashboard that fuses camera, network, and app telemetry with lightweight anomaly scoring.
+Dashboard sintetico que cruza metricas de camera, rede e aplicacao para detectar anomalias simples.
 
-## Overview
+**Demo:** https://albertomateus9.github.io/vision-telemetry-fusion/
 
-Vision Telemetry Fusion is a browser-first MVP for the GitHub portfolio of Alberto Mateus P. da Gama. It is built to demonstrate low-cost computer vision applied to telecommunications, infrastructure operations, and technical education.
+## Visão Geral
 
-The app runs locally in the browser. It does not upload images, video, or telemetry to any backend.
+Fusao De Telemetria De Visao E Rede é uma ferramenta de portfólio em Telecom + IA + Visão Computacional. O MVP foi mantido simples, executável e seguro para evoluções futuras sem depender de backend.
 
-## What It Demonstrates
+O projeto roda localmente no navegador e não envia imagem, vídeo ou telemetria para backend.
 
-- Privacy-safe local processing.
-- Lightweight browser-side computer vision or telemetry analysis.
-- A practical telecom/education scenario with synthetic data.
-- Exportable output for documentation, inventory, or engineering review.
+## Experiência
 
-## Tech Stack
-
-- React + Vite + TypeScript
-- Browser Canvas APIs
-- Local heuristics and synthetic data
-- Optional browser ML hooks where appropriate
-
-## Getting Started
-
-```bash
-npm install
-npm run dev
-```
-
-Production build:
-
-```bash
-npm run build
-```
-
-## Privacy Notes
-
-- No backend service is used.
-- No image, camera frame, or telemetry sample is uploaded.
-- Webcam-oriented ideas use synthetic/demo mode by default.
-- The project avoids biometric identification and student/person recognition.
-
-## Roadmap
-
-- Add more realistic sample assets.
-- Add automated tests for the main analysis function.
-- Improve mobile interaction and export formatting.
-- Add optional model-based inference only when it stays local and lightweight.
-
----
-
-# Vision Telemetry Fusion
-
-Synthetic dashboard that fuses camera, network, and app telemetry with lightweight anomaly scoring.
-
-## Visao Geral
-
-Vision Telemetry Fusion e um MVP browser-first para o portfolio GitHub de Alberto Mateus P. da Gama. O projeto demonstra visao computacional de baixo custo aplicada a telecomunicacoes, operacoes de infraestrutura e educacao tecnica.
-
-O app roda localmente no navegador. Ele nao envia imagens, video ou telemetria para backend.
-
-## O Que Demonstra
-
-- Processamento local com foco em privacidade.
-- Visao computacional ou analise de telemetria leve no navegador.
-- Cenario pratico de telecom/educacao com dados sinteticos.
-- Saida exportavel para documentacao, inventario ou revisao de engenharia.
+- Interface em Português-BR com visual de demonstração profissional.
+- Dados sintéticos e processamento local.
+- Saída exportável para relatório, CSV, JSON ou Markdown conforme o fluxo.
+- Estrutura pronta para GitHub Pages via workflow.
 
 ## Como Rodar
 
@@ -75,12 +24,18 @@ npm install
 npm run dev
 ```
 
-Build de producao:
+Build de produção:
 
 ```bash
 npm run build
 ```
 
-## Licenca
+## Política De Dados
 
-MIT. Veja [LICENSE](LICENSE).
+- Nenhum dado sensível é versionado.
+- Nenhuma imagem, vídeo, telemetria ou arquivo é enviado para servidor externo.
+- Integrações reais devem ser feitas apenas em ambiente autorizado e com dados adequados.
+
+## Licença
+
+MIT. Consulte [LICENSE](LICENSE).

@@ -3,7 +3,7 @@
   "private": false,
   "version": "0.1.0",
   "type": "module",
-  "description": "Synthetic dashboard that fuses camera, network, and app telemetry with lightweight anomaly scoring.",
+  "description": "Dashboard sintetico que cruza metricas de camera, rede e aplicacao para detectar anomalias simples.",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

@@ -1,23 +1,21 @@
-export type ProjectType = 'fresnel' | 'ocr' | 'colors' | 'gesture' | 'occupancy' | 'depth' | 'benchmark' | 'telemetry';
-
-export type ProjectConfig = {
-  slug: string;
-  title: string;
-  tagline: string;
-  type: ProjectType;
-  deploy: boolean;
-  topics: string[];
-  description: string;
-  accent: string;
-  secondary: string;
-};
-
+export type ProjectType = 'fresnel' | 'ocr' | 'colors' | 'gesture' | 'occupancy' | 'depth' | 'benchmark' | 'telemetry';
+
+export type ProjectConfig = {
+  slug: string;
+  title: string;
+  tagline: string;
+  type: ProjectType;
+  deploy: boolean;
+  topics: string[];
+  description: string;
+  accent: string;
+  secondary: string;
+};
+
 export const project: ProjectConfig = {
   "slug": "vision-telemetry-fusion",
-  "title": "Vision Telemetry Fusion",
-  "tagline": "Synthetic dashboard that fuses camera, network, and app telemetry with lightweight anomaly scoring.",
-  "type": "telemetry",
-  "deploy": false,
+  "title": "Fusao De Telemetria De Visao E Rede",
+  "description": "Dashboard sintetico que cruza metricas de camera, rede e aplicacao para detectar anomalias simples.",
   "topics": [
     "telemetry",
     "anomaly-detection",
@@ -25,9 +23,19 @@ export const project: ProjectConfig = {
     "network-monitoring",
     "ewma",
     "react",
-    "typescript"
+    "typescript",
+    "telemetria",
+    "anomalias",
+    "redes",
+    "visao-computacional",
+    "github-pages",
+    "portugues-brasil",
+    "educacao-tecnologica",
+    "telecomunicacoes"
   ],
-  "description": "Synthetic dashboard that fuses camera, network, and app telemetry with lightweight anomaly scoring.",
+  "deploy": true,
+  "tagline": "Fusão local de telemetria visual, rede e aplicação para leitura rápida de anomalias.",
+  "type": "telemetry",
   "accent": "#405f73",
   "secondary": "#8d5e63"
-};
+};
